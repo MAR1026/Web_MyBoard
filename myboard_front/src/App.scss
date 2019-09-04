@@ -1,0 +1,158 @@
+.app-body {
+    padding-top: 65px;
+}
+
+.home {
+    table {
+        border: 1px solid black;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    th, td {
+        border: 1px solid black;
+        text-align: center;
+    }
+}
+
+.board-view {
+    table {
+        width: 70%;
+        margin: 0 auto;
+    }
+    th, td {
+        text-align: center;
+    }
+    th {
+        border: 1px solid black;
+        text-align: center;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+.app-header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 6vh;
+    background-color: darkslategray;
+
+    .menubar {
+        list-style-type: none;
+        >li {
+            float: left;
+            color: white;
+            margin-right: 1em;
+            >a{
+                color: white;
+                text-decoration: none;
+                padding: 8px 16px;
+                text-align: center;
+
+            }
+        }
+        >li:hover >a {
+            color: yellow;
+        }
+
+        >li:hover .subMenu {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+
+    .loginbtn {
+        float: right;
+        margin-top: 1em;
+        margin-right: 1em;
+        background: #1AAB8A;
+        color: #fff;
+        border: none;
+        font-size: 1em;
+        cursor: pointer;
+    }
+}
+
+.join {
+    height : 84vh;
+    .joinNotice {
+        div {
+            font-size: 24px;
+        }
+        p {
+            text-align: center;
+        }
+        hr {
+            margin: 10px 15px;
+        }
+    }
+
+    div {
+        margin-top: 7px;
+        margin-left: 15px;
+    }
+}
+
+.writeBtn {
+    text-align: center;
+}
+
+.edit {
+    text-align: center;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    div {
+        img {
+            width: 200px;
+        }
+    }
+    .form {
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 10px;
+    }
+}
+
+button {
+    margin: .2em;
+    background:#1AAB8A;
+    color:#fff;
+    border:none;
+    font-size:1em;
+    cursor:pointer;
+}
+img {
+    width: 200px;
+}
+
+.recommend {
+  text-align: center;
+}
+
+.recommendBtn {
+    background: none;
+    color: transparent;
+    text-shadow: 0 0 2px rgba(255,255,255,.7), 0 0 0 #000;
+}
+
+.recommendBtn:hover {
+    text-shadow: 0 0 0 #ea0;
+}
+.done {
+    background: none;
+    color: inherit;
+    text-shadow: 0;
+}
+.done:hover {
+    color: transparent;
+    text-shadow: 0 0 0 #777;
+}
